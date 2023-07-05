@@ -1,0 +1,201 @@
+@import url(./fonts.css);
+
+.main {
+    padding: 0 15px;
+    margin-top: 100px;
+}
+
+.navigation-path {
+    display: none;
+    border-top: 1px solid #515D6A;
+    padding-top: 30px;
+    font: 16px/26px 'Inter';
+    color: #615B5B;
+    margin-bottom: 40px;
+}
+
+.project__title {
+    text-align: center;
+    font: 700 30px/35px "Evolventa", sans-serif;
+}
+
+.project__text-container {
+    margin-bottom: 50px;
+}
+
+.project__list-description {
+    margin: 0 0 15px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.project__list-item {
+    font: 18px/28px "Inter", sans-serif;
+    margin: 0 0 5px 28px;
+}
+
+.project__list-description .project__list-item:first-child {
+    font: 700 28px/1 "Evolventa", sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    color: #111111;
+}
+
+.project__price {
+    display: block;
+    text-align: center;
+    font: 700 28px/1 "Evolventa", sans-serif;
+    margin-bottom: 30px;
+}
+
+.project__text {
+    text-align: center;
+    font: 16px/22px "Inter", sans-serif;
+}
+
+.project__link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font: 18px/26px "Inter", sans-serif;
+    padding: 17px 37px;
+    background-color: #2A7542;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.project__note {
+    font: 16px/22px "Inter", sans-serif;
+}
+
+.catalog__title {
+    text-align: center;
+    font: 700 30px/35px "Evolventa", sans-serif;
+    margin: 0 0 22px;
+}
+
+.catalog__subtitle {
+    font: 18px/28px "Inter", sans-serif;
+    margin: 0 0 30px;
+}
+
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-item__title {
+    font: 700 24px/24px "Evolventa", sans-serif;
+    margin: 20px 0;
+    color: #111111;
+}
+
+.catalog-item__subtitle {
+    font: 18px/28px "Inter", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-item__link {
+    display: inline-block;
+    font: 600 20px/20px "Inter", sans-serif;
+    color: #111111;
+    margin: 20px 0 50px 0;
+}
+
+.catalog-link {
+    display: inline-block;
+    text-decoration: none;
+    font: 18px/26px "Inter", sans-serif;
+    color: #111111;
+    padding: 17px 77px;
+    border: 1px solid #111111;
+    border-radius: 100px;
+    margin: 45px 0 0 0;
+}
+
+.form-container {
+    background-color: #F8F7F3;
+    padding: 70px 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__title {
+    margin: 0 0 23px;
+    font: 700 30px/35px "Evolventa", sans-serif;
+    text-align: center;
+}
+
+.form__subtitle {
+    max-width: 312px;
+    font: 18px/28px "Inter", sans-serif;
+    text-align: center;
+    margin-bottom: 24px;
+    align-self: center;
+}
+
+.form__input {
+    border-radius: 100px;
+    border: none;
+    font: 20px/26px "Inter", sans-serif;
+}
+
+.form__input_text-field {
+    border: 1px;
+    margin-bottom: 15px;
+    padding: 17px 37px;
+    border: 1px solid #2A7542;
+}
+
+.form__input_text-field:focus {
+    outline: none;
+}
+
+.form__input_button {
+    padding: 17px 37px;
+    margin-bottom: 41px;
+    background-color: #2A7542;
+    color: #FFFFFF;
+}
+
+.form__checkbox-wrapper {
+    display: flex;
+}
+
+.form__input_checkbox {
+    margin: 5px 20px 0 0;
+    flex: 0 1 15%;
+    accent-color: #2A7542;
+    width: 30px;
+    height: 30px;
+}
+
+.form__text {
+    display: block;
+    margin: 0;
+    font: 13px/20px "Inter", sans-serif;
+    color: #11111180;
+}
+
+.form-image {
+    display: none;
+}
+
+@media screen and (min-width: 767px) {
+    .main {
+        margin: 0;
+    }
+
+    .navigation-path {
+        display: block;
+    }
+
+    .project__title {
+        text-align: left;
+    }
+}

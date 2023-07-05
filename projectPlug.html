@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/projectPlug.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/favicon.png">
+    <title>Проект дома "Муром" №1</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a class="header__logo" href="./index.html">
+                <img class="header__logo-icon" src="./images/logo2.svg" alt="Зеленый дом с надписью 'ЛЕС 12'">
+            </a>
+            <div class="header__menu">
+                <div class="header__burger-button">
+                    <span class="header__span"></span>
+                </div>
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="#catalog" class="navigation__link">Проекты</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#price-list" class="navigation__link">Стоимость</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#contact-information" class="navigation__link">Контакты</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="tel:+79093673261" class="navigation__link">+7(909)367 32-61</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="navigation-path">
+            <span class="navigation-path__text">Главная ></span>
+            <span class="navigation-path__text">Проекты домов</span>
+        </div>
+        <div class="project">
+            <h1 class="project__title">Проект дома «Муром»</h1>
+            <div class="project__image-container">
+                <img class="project__image" src="./images/projectHouseMuron1/projectImage.jpg"
+                    alt="Одноэтажный дом c темной крышей и желтым деревом проект - 'Муром'">
+            </div>
+            <div class="project__text-container">
+                <ul class="project__list-description">
+                    <li class="project__list-item">Параметры проекта:</li>
+                    <li class="project__list-item">Площадь дома.............................81 м2</li>
+                    <li class="project__list-item">Размер дома................................9 х 9</li>
+                    <li class="project__list-item">Этажей..........................................1</li>
+                    <li class="project__list-item">Комнат...........................................3</li>
+                    <li class="project__list-item">Второй свет..................................нет</li>
+                    <li class="project__list-item">Количество спален.....................2</li>
+                    <li class="project__list-item">Количество санузлов..................1</li>
+                </ul>
+                <span class="project__price">от 2 490 000 руб.</span>
+                <p class="project__text">Цена указана за домокомплект</p>
+                <p class="project__text">Вы можете заказать расчет строительства
+                    теплового контура или дома под ключ</p>
+                <a class="project__link" href="">Заказать расчет</a>
+            </div>
+        </div>
+        <div class="catalog" id="catalog">
+            <h2 class="catalog__title">Похожие проекты</h2>
+            <div class="catalog-item catalog-item_colum_first">
+                <img class="catalog-item__image" src="./images/catalog/projectMurom1.png"
+                    alt="Одноэтажный дом c темной крышей и желтым деревом проект - 'Муром'">
+                <h3 class="catalog-item__title">Проект дома «Муром»</h3>
+                <div class="catalog-item__subtitle">
+                    <span class="catalog-item__size">106 кв.м.</span>
+                    <span class="catalog-item__price">от 2 490 000 ₽</span>
+                </div>
+                <a href="./projectPage/projectHouseMuron1.html" class="catalog-item__link">Посмотреть проект → </a>
+            </div>
+            <div class="catalog-item catalog-item_colum_first">
+                <img class="catalog-item__image" src="./images/catalog/projectMurom2.png"
+                    alt="Двухэтажный дом c темной крышей и желтым деревом проект - 'Муром'">
+                <h3 class="catalog-item__title">Проект дома «Муром»</h3>
+                <div class="catalog-item__subtitle">
+                    <span class="catalog-item__size">106 кв.м.</span>
+                    <span class="catalog-item__price">от 2 490 000 ₽</span>
+                </div>
+                <a href="#" class="catalog-item__link">Посмотреть проект → </a>
+            </div>
+            <div class="catalog-item catalog-item_colum_first">
+                <img class="catalog-item__image" src="./images/catalog/projectMurom3.png"
+                    alt="Одноэтажный дом c темной крышей и желтым деревом проект - 'Муром'">
+                <h3 class="catalog-item__title">Проект дома «Муром»</h3>
+                <div class="catalog-item__subtitle">
+                    <span class="catalog-item__size">106 кв.м.</span>
+                    <span class="catalog-item__price">от 2 490 000 ₽</span>
+                </div>
+                <a href="#" class="catalog-item__link">Посмотреть проект → </a>
+            </div>
+        </div>
+    </main>
+    <aside class="form-container" id="form">
+        <img class="form-image" src="./images/formHouseImage.jpg"
+            alt="Большой деревянный желтый дом с квадратными окнами на втором этаже">
+        <form class="form" action="https://echo.htmlacademy.ru" method="post">
+            <h2 class="form__title">Хотите обсудить проект, узнать стоимость или задать вопрос?</h2>
+            <span class="form__subtitle">Заполните форму и мы свяжемся с Вами в ближайшее время.</span>
+            <input class="form__input form__input_text-field" type="text" placeholder="Ваше имя*" name="userName"
+                required>
+            <input class="form__input form__input_text-field" type="text" placeholder="Ваше номер телефона*"
+                name="userPhone" required>
+            <input class="form__input form__input_text-field" type="email" placeholder="Ваше email" name="userEmail">
+            <input class="form__input form__input_button" type="submit">
+            <div class="form__checkbox-wrapper">
+                <input class="form__input form__input_checkbox" type="checkbox" name="checkbox" id="checkbox" required>
+                <p class="form__text">
+                    Нажимая на кнопку, Вы соглашаетесь с условиями <a href="#">Политики конфиденциальности</a>
+                </p>
+            </div>
+        </form>
+    </aside>
+    <footer class="footer">
+        <a class="footer__logo" href="">
+            <img class="footer__logo-image" src="./images/logo2.svg" alt="Зеленый дом с надписью 'ЛЕС 12'">
+        </a>
+        <div class="footer__navigation">
+            <ul class="footer__menu">
+                <li class="footer__item">
+                    <a class="footer__link" href="#catalog">Проекты</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#price-list">Стоимость</a>
+                </li>
+                <li class="footer__item footer__item_hidden">
+                    <a class="footer__link" href="#contact-information">Политика конфиденциальности</a>
+                </li>
+                <li class="footer__item footer__item_hidden">
+                    <a class="footer__link" href="#">Договор оферты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__information-contact">
+            <ul class="footer__menu">
+                <li class="footer__item">
+                    <a class="footer__link"
+                        href="https://yandex.ru/maps/geo/posyolok_zelyony/53104785/?ll=47.810436%2C56.575401&z=17">
+                        424000, РМЭ, Медведевский район, пос. Зелёный, 1Г
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="tel:+79093673261">+7 (909) 367-32-61</a>
+                </li>
+                <li class="footer__item footer__item_hidden">
+                    <a class="footer__link" href="tel:+79877219161">+7 (987) 721-91-61</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="mailto:les-12@list.ru">les-12@list.ru</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
